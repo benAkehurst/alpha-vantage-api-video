@@ -5,7 +5,6 @@ const tools = require('./tools');
 const fetchStocks = async () => {
   // Fetches Raw Stock Data
   const rawData = await fetchRawData('AAPL');
-
   // Converts Data and saves
   await tools.dataConverter(rawData).then((response) => {
     fs.writeFileSync('./stockData.json', JSON.stringify(response));
