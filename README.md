@@ -1,4 +1,4 @@
-# Alpha Vantage API Code
+# Alpha Vantage API Video Code
 
 ### If you want to convert an Alpha Vantage API response to an object, this is the repo for you!
 
